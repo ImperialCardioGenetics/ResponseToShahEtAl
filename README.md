@@ -12,15 +12,6 @@ _max credible pop AF = disease prevalence * max allele contribution * 1/penetran
 
 where _max allele contribution_ is defined as the maximum proportion of disease caused by any one variant.
 
-The following parameters were used to calculate _max credible pop AF_ for the five cardiac diseases in the paper:
-
-disease	prevalence | penetrance | max allelic contribution | max credible pop AF
-HCM | 1/500 | 0.5 | 2.0 | 4.0x10-5
-DCM | 1/250 | 0.5 | 2.1 | 8.4x10-5
-ARVC | 1/1000 | 0.5 | 9.2 | 9.2x10-5
-LQTS | 1/2000 | 0.5 | 1.6 | 8.2x10-6
-Brugada | 1/1000 | 0.5 | 1.0 | 1.0x10-5
-
 For each variant, we then compare this _max credible pop AF_ to a pre-calculated _filtering allele frequency_, to determine whether that variant is a credible candidate to cause disease. This value takes into account the major continental populations in gnomAD and accounts for sampling variance.
 
 ### scripts
