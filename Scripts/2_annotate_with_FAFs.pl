@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-### Need to read through and store variants first to avoid storing all of gnomAD!
+### Store variant details
 my $file="clinvar_20170905_cardiacPhenotypes.vcf";
 my %cardiac_vars_exomes;
 my %cardiac_vars_genomes;
